@@ -1,4 +1,4 @@
-import ShoppingList from "../components/shop-our-site components/shopping-list";
+import ShoppingList from "../components/shopping-list";
 
 const ShopOurSite = () => {
     return (
