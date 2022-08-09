@@ -1,5 +1,9 @@
+import ShoppingList from "../components/shop-our-site components/shopping-list";
+
 const ShopOurSite = () => {
-    return <h1>Shop Our Site Page</h1>
+    return (
+        <ShoppingList />
+    )    
 };
 
 export default ShopOurSite;

@@ -6,7 +6,7 @@ const Home = () => {
     return (
         
         <Container>
-            <br/>   
+            <br/> 
             <Row>                                     
                 <Col>
                 <blockquote>
@@ -25,11 +25,11 @@ const Home = () => {
                 <img className="basket" src="images/Dragan SmiljkovicUnsplash.jpg" alt="..."/> 
                 <img className="heart" src="images/gojakUpsplash.jpg" alt=""/>
                 </Col>                
-            </Row>
-            <br/>
+            </Row> 
+            <br/>           
             <Row>            
-            <p>Images available on <a href="http://www.unsplash.com">unsplash.com</a>. 
-       Credits: yarn closet: Paul Hanaoka; yarn basket: Dragan Smiljkovic; crochet hook with heart: gojak</p>
+            <p>Home page images available on <a href="http://www.unsplash.com">unsplash.com</a>. 
+             Credits: yarn closet: Paul Hanaoka; yarn basket: Dragan Smiljkovic; crochet hook with heart: gojak. Product images from Amazon.com.</p>
             </Row>
         </Container>
            )    

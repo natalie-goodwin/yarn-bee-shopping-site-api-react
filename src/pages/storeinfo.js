@@ -61,8 +61,9 @@ const StoreInfo = () => {
             </Row>
             <br/><br/>
             <Row>
-            <p>Images available on <a href="http://www.unsplash.com">unsplash.com</a>. 
-          Credits: yarn closet: Paul Hanaoka; yarn basket: Dragan Smiljkovic; crochet hook with heart: gojak</p>
+            <p>Home page images available on <a href="http://www.unsplash.com">unsplash.com</a>. 
+             Credits: yarn closet: Paul Hanaoka; yarn basket: Dragan Smiljkovic; crochet hook with heart: gojak. 
+             Product images from Amazon.com.</p>
             </Row>
         </Container>
     )

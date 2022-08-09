@@ -20,17 +20,27 @@ code {
 } /********footer alignment*******/
 
 .basket {
-  height: 270px;
-  width: 460px;
+  
+  width: 380px;
 }  /********yarn basket image*******/
 
 .heart {
-  height: 270px;
-  width: 460px;
+  
+  width: 380px;
 }   /********yarn heart image*******/
 
 .yarnCloset {
-  height: 530px;
-  width: 460px;
+
+  width: 400px;
 }   /********yarn closet image*******/
 
+.honeybee {
+  width: 20px;
+}
+.cart {
+  width: 20px;
+}
+
+img {
+  width: 300px;
+}
