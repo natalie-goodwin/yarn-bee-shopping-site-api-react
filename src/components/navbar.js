@@ -9,7 +9,7 @@ const NavBar = () => {
     return (
        
        
-<Navbar bg="light" expand="lg">
+<Navbar expand="lg" className="navbar-style">
       
       <Container>
         <Navbar.Brand href="/">YarnBee
@@ -20,8 +20,8 @@ const NavBar = () => {
             <Nav className="me-auto">      
             <Nav.Link href="/storeinfo">Store Info</Nav.Link>                      
             <Nav.Link href="/shopoursite">Shop Our Site</Nav.Link>            
-            <Nav.Link href="/cart">Go to Cart
-            <img className="cart" src="images/cart.png" alt="cart" />
+            <Nav.Link href="/shoppingcart">Go to Cart
+            
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>        
