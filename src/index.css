@@ -31,7 +31,7 @@
 }
 
 img {
-  width: 300px;
+  width: 150px;
 }
 
 body {
@@ -43,21 +43,5 @@ body {
   this overwrites the original code */
 }
 
-.green-highlight {
-  color: green;
-  font-size: 40px;
-}
 
-.red-highlight {
-  color: red;
-  font-size: 25px;
-}
 
-.orange-highlight {
-  color: orange;
-  font-size: 30px;
-}
-
-.hand-icon {
-  cursor:pointer;
-}

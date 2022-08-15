@@ -5,8 +5,7 @@ import './App.css';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import NavBar from './components/Navbar';
 import Home from "./components/Home"
-import ShoppingCart from './components/ShoppingCart';
-import ShopOurSite from './components/ShopOurSite';
+import ProductsInStore from './components/ProductsInStore';
 import StoreInfo from './components/StoreInfo';
 
 
@@ -18,8 +17,8 @@ function App() {
     <Switch>
       <Route path="/" component={Home} exact/>
       <Route path="/storeinfo" component={StoreInfo}/> 
-      <Route path="/shopoursite" component={ShopOurSite}/>
-      <Route path="/shoppingcart" component={ShoppingCart}/>
+      <Route path="/productsinstore" component={ProductsInStore}/>
+     
       
     </Switch>
      
