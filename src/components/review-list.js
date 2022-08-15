@@ -9,7 +9,8 @@ export default class ReviewList extends React.Component {
         }
     }
     render() {
-        return ( /*returns the Review component and shows list of user reviews in its currrent state */
+        return ( /*returns the Review component and shows list of user reviews in its 
+        current state */
             <div className="container">                 
                 <div>
                 <Review reviews={this.state.reviews} />
@@ -18,4 +19,3 @@ export default class ReviewList extends React.Component {
         )
     }
 }
-/*This review list includes the Review component */

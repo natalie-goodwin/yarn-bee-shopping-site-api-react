@@ -1,12 +1,10 @@
-/* holds props for product, rating, and stars*/
+/* holds props for product and rating*/
 import React from "react";
 import Container  from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import ReviewList from "./review-list"; /*passing ReviewList and ReviewButton components to the Movie class */
-import ReviewButton from "./review-button";
-
-
+import ReviewList from "./review-list";
+import SubmitButton from "./submit-button"
 
 export default class Product extends React.Component {
     constructor(props) { /*passing the product props from the constructor into the 
@@ -23,11 +21,11 @@ export default class Product extends React.Component {
         this.setReviews = this.setReviews.bind(this) /*have to bind this to setReviews  */
     }
     
-    setReviews(e) {
+    setReviews(e) { /*this sets the reviews that users submit */
         let newReview = e.target.previousElementSibling.previousElementSibling.previousElementSibling.value
         this.setState( state => {
-            if ( state.name === e.target.name ) { /*when a user adds a review it will be pushed 
-            to the Review array */
+            if ( state.name === e.target.name ) { /*when a user adds a review it will be 
+            pushed to the Review array */
                 state.reviews.push(newReview)
                 return {reviews: state.reviews }
             }
@@ -36,7 +34,7 @@ export default class Product extends React.Component {
     }
 
     render() {
-        return( /*returning AddToCartButton, ReviewList, and ReviewButton */ 
+        return( /*returning ReviewList and SubmitButton */ 
             <Container>
                 <br/> <br/> <br/>
                 <Row>
@@ -50,10 +48,10 @@ export default class Product extends React.Component {
                     </Col>                   
                 </Row> 
                     <ReviewList reviews={this.state.reviews} />
-                    <ReviewButton onClick={ (e) => this.setReviews(e) } name={this.state.name} />
-                              
-            </Container>
-            
+                    <SubmitButton onClick={ (e) => this.setReviews(e) } 
+                     name={this.state.name} />   {/*when the submit button is clicked,
+                     the user review is pushed into the review array*/}                         
+            </Container>            
        ) 
     }
 }

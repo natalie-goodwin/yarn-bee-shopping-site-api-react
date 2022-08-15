@@ -1,8 +1,8 @@
-/*NavBar component */
+/*NavBar component: holds links for the website */
 import React from "react";
-import Container from 'react-bootstrap/Container'
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container' /*react bootsrap container */
+import Nav from 'react-bootstrap/Nav'; /*react bootsrap nav */
+import Navbar from 'react-bootstrap/Navbar'; /*react bootsrap navbar */
 
 
 const NavBar = () => {
@@ -21,9 +21,6 @@ const NavBar = () => {
             <Nav.Link href="/">Home</Nav.Link> 
             <Nav.Link href="/storeinfo">Store Info</Nav.Link>                      
             <Nav.Link href="/productsinstore">Products in Our Store</Nav.Link>            
-            
-            
-           
           </Nav>
         </Navbar.Collapse>        
       </Container>

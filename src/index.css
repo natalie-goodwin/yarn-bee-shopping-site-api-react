@@ -1,47 +1,40 @@
-
-.navbar-style {
-  background-color:rgb(61, 196, 196)  !important; /*important means
-  this overwrites the original code */
-}
-
-.footer {    
-  text-align: center;    
-} /********footer alignment*******/
+img {
+  width: 150px;
+} /*images on ProductsInStore component*/
 
 .basket {
   
   width: 380px;
 }  /********yarn basket image*******/
 
+.footer {    
+  text-align: center;    
+} /********footer alignment*******/
+
 .heart {
   
   width: 380px;
 }   /********yarn heart image*******/
+
+.honeybee {
+  width: 20px;
+}
+/*honeybee image*/
+
+.navbar-style {
+  background-color:rgb(61, 196, 196)  !important; /*important means
+  this overwrites the original code */
+}
 
 .yarnCloset {
 
   width: 400px;
 }   /********yarn closet image*******/
 
-.honeybee {
-  width: 20px;
-}
-.cart {
-  width: 20px;
-}
 
-img {
-  width: 150px;
-}
 
-body {
-  background-color: beige;
-}
 
-.navbar-style {
-  background-color:rgb(61, 196, 196)  !important; /*important means
-  this overwrites the original code */
-}
+
 
 
 
