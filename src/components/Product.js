@@ -3,8 +3,8 @@ import React from "react";
 import Container  from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import ReviewList from "./review-list";
-import SubmitButton from "./submit-button"
+import ReviewList from "./Review-List";
+import SubmitButton from "./Submit-Button"
 
 export default class Product extends React.Component {
     constructor(props) { /*passing the product props from the constructor into the 

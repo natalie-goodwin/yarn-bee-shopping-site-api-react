@@ -1,5 +1,6 @@
 import React from "react";
 import Product from "./Product"; /*import Product component */
+import Container from "react-bootstrap/Container";
 
 
 export default class ProductsInStore extends React.Component {
@@ -11,7 +12,7 @@ export default class ProductsInStore extends React.Component {
                 name: "Lion Brand 24/7 Cotton Yarn"  ,
                 image: "./images/lion-brand-yarn.jpg",
                 price: "$5.99",   
-                reviews: []                    
+                reviews: [],                 
             }, 
             {
                 name: "Red Heart Yarn",
@@ -46,6 +47,7 @@ export default class ProductsInStore extends React.Component {
         array*/
 
         return (
+            <Container>
             <div>
                 <div>
                     <h4>Products</h4>
@@ -55,7 +57,9 @@ export default class ProductsInStore extends React.Component {
                     </h5>
                 </div>
                 {arr} {/*returns the array */}
-            </div>            
+            </div>  
+            </Container>
+                      
         );              
     }
 }

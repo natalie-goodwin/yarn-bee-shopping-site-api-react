@@ -31,10 +31,18 @@ img {
   width: 400px;
 }   /********yarn closet image*******/
 
-
-
-
-
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.on {
+  color: yellow;
+}
+.off {
+  color: gray;
+}
 
 
 

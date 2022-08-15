@@ -1,5 +1,6 @@
 /*This SubmitButton component will be added to the ReviewForm component */
 import React from "react";
+import Stars from "./Stars";
 
 
 export default class SubmitButton extends React.Component {
@@ -21,7 +22,8 @@ export default class SubmitButton extends React.Component {
         return( /*this is the code that creates the review button and user review form */
             <div className="text-black bg-light card-footer col-sm-12">
                 <p className="card-text">What you think of this product?</p>
-                <p className="card-text"></p>                            
+                <p className="card-text"></p> 
+                <Stars/>                  
                 <input type="text" id="newReview" placeholder="Enter review"/><br /><br />
                 <button className="btn btn-info" onClick={this.handleClick} 
                 name={this.state.name} id={this.state.id}>Submit review</button>

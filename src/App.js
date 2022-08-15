@@ -1,12 +1,12 @@
 /* This will hold the react-router pages and NavBar component*/
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import './App.css';
+import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import NavBar from './components/Navbar';
-import Home from "./components/Home"
-import ProductsInStore from './components/ProductsInStore';
-import StoreInfo from './components/StoreInfo';
+import NavBar from "./Components/Navbar"
+import Home from "./Components/Home"
+import ProductsInStore from './Components/ProductsInStore';
+import StoreInfo from './Components/StoreInfo';
 /*imported components for NavBar and all routes, imported Route and Switch; 
 BrowserRouter is on index.js page */
 
